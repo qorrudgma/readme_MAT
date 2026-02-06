@@ -48,7 +48,7 @@
 
 ### 1. 레시피 CRUD 기능
 [![MATFLIX 시연 영상]
-https://github.com/qorrudgma/readme_MAT/video/matflix_레시피.mp4
+https://github.com/qorrudgma/readme_MAT/matflix_레시피.mp4
 - 사용자가 직접 레시피를 등록, 수정, 삭제 가능
 - 이미지 업로드 및 레시피 상세 정보 관리
 - 카테고리, 재료, 조리 순서 등 레시피 정보를 체계적으로 등록 가능
