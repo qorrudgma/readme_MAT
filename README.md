@@ -83,30 +83,38 @@
 - 로그인한 사용자 현황 조회 가능  
 - 밴(Ban)/활성화 처리, 온라인/오프라인 상태 확인  
 - 동일 계정 동시 접속 차단 기능 제공  
-- (개발 예정) 신고 관리 기능 추가 가능  
 
 ### 10. 보안 기능
-
 - 아이디: 쿠키 기반 로그인 관리  
 - 비밀번호: BCrypt 해시 적용  
 - 세션 및 동시 로그인 제한  
 - 이메일 인증: 회원가입 시 인증 후 계정 활성화  
-- 사용자 계정 보호 및 관리 편의성 향상  
 
 ---
 
 ## ERD
 
-### User
-<img src="readme_MAT/USER.png" alt="MATFLIX 로고" width="200"/>
+<details>
+  <summary>User ERD</summary>
+  <br>
+  <img src="USER.png" alt="MATFLIX 로고" width="700"/>
+</details>
 
-### Recipe
-<img src="readme_MAT/RECIPE.png" alt="MATFLIX 로고" width="200"/>
+<details>
+  <summary>Recipe ERD</summary>
+  <br>
+  <img src="RECIPE.png" alt="MATFLIX 로고" width="700"/>
+</details>
 
-### Board
-<img src="readme_MAT/BOARD.png" alt="MATFLIX 로고" width="200"/>
+<details>
+  <summary>Board ERD</summary>
+  <br>
+  <img src="BOARD.png" alt="MATFLIX 로고" width="700"/>
+</details>
 
-### Notification
-<img src="readme_MAT/NOTIFICATION.png" alt="MATFLIX 로고" width="200"/>
-
+<details>
+  <summary>Notification ERD</summary>
+  <br>
+  <img src="NOTIFICATION.png" alt="MATFLIX 로고" width="700"/>
+</details>
 
