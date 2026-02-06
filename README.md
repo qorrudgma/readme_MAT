@@ -98,15 +98,15 @@
 ## ERD
 
 ### User
-
+<img src="readme_MAT/USER.png" alt="MATFLIX 로고" width="200"/>
 
 ### Recipe
-
+<img src="readme_MAT/RECIPE.png" alt="MATFLIX 로고" width="200"/>
 
 ### Board
-
+<img src="readme_MAT/BOARD.png" alt="MATFLIX 로고" width="200"/>
 
 ### Notification
-
+<img src="readme_MAT/NOTIFICATION.png" alt="MATFLIX 로고" width="200"/>
 
 
