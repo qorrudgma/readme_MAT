@@ -38,7 +38,8 @@
 
 - **Backend:** Java 17, Spring Boot, MyBatis  
 - **Database:** MySQL  
-- **Front-end:** HTML, CSS, JavaScript, jQuery, AJAX  
+- **Front-end:** HTML, CSS, JavaScript, jQuery, AJAX
+- **실시간 알림 기능:** Server-Sent Events(SSE)
 - **보안:** BCrypt, 세션 관리, 동시 로그인 제한, 이메일 인증 
 
 
@@ -50,6 +51,11 @@
 - 사용자가 직접 레시피를 등록, 수정, 삭제 가능
 - 이미지 업로드 및 레시피 상세 정보 관리
 - 카테고리, 재료, 조리 순서 등 레시피 정보를 체계적으로 등록 가능
+
+  **구현 포인트**
+- 이미지 업로드 시 서버 파일 시스템에 저장 후 DB에는 경로만 관리
+- 수정 시 기존 이미지 삭제 여부를 판단하여 불필요한 파일 누적 방지
+- DTO를 활용해 레시피 기본 정보와 이미지 정보를 분리 관리
 
 ### 2. 게시글 CRUD 기능
 - 커뮤니티 게시판에서 글 작성, 수정, 삭제 가능  
